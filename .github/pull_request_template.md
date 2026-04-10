@@ -8,7 +8,9 @@
 
 ## How to test
 
-- [ ] Tests pass
+- [ ] `cargo test --locked`
+- [ ] `cargo clippy --locked -- -D warnings`
+- [ ] `cargo fmt --check`
 - [ ] Tested manually
 
 ## Commit type

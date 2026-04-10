@@ -5,6 +5,7 @@
 ```sh
 git clone https://github.com/gremlinltd/REPO_NAME.git
 cd REPO_NAME
+cargo build
 ```
 
 ## Commits
@@ -40,6 +41,16 @@ We use Gitflow:
 - `bugfix/<name>` - bug fixes
 - `hotfix/<name>` - urgent fixes off main
 - `release/<name>` - release prep
+
+## Testing
+
+```sh
+cargo test --locked
+cargo clippy --locked -- -D warnings
+cargo fmt --check
+```
+
+All three need to pass before we merge.
 
 ## Pull requests
 

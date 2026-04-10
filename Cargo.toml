@@ -1,0 +1,14 @@
+[package]
+name = "REPO_NAME"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "TODO: Add description"
+repository = "https://github.com/gremlinltd/REPO_NAME"
+readme = "README.md"
+
+[[bin]]
+name = "REPO_NAME"
+path = "src/main.rs"
+
+[dependencies]
